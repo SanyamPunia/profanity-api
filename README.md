@@ -2,7 +2,7 @@
 
 A scalalbe REST API to check profanity in chunks (at scale)
 
-### 🧪 Test Production API
+### Test Production API
 
 ```js
 const res = await fetch("https://profanity-api.profanity-prod.workers.dev/", {
@@ -12,13 +12,13 @@ const res = await fetch("https://profanity-api.profanity-prod.workers.dev/", {
 });
 ```
 
-### 🏗️ Tech Stack
+### Tech Stack
 
 - Backend - [Hono](https://hono.dev/)
 - Database - [@upstash/vector](https://upstash.com/)
 - Deployment - [Cloudflare Workers](https://workers.cloudflare.com/)
 
-### 🛠️ Local Set-Up
+### Local Set-Up
 
 ```bash
 $ git clone <...>
